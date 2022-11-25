@@ -13,7 +13,7 @@ class Pessoa
 public:
     Pessoa( string );
     virtual ~Pessoa( );
-    virtual void print( ) const { cout << nome << '\n'; }
+    void print( ) const { cout << nome << '\n'; }
 
 private:
     string nome;
